@@ -1,5 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://admin:admin@spring.5fay8zh.mongodb.net/?retryWrites=true&w=majority
+      uri: mongodb://admin:admin@ac-rdal5xo-shard-00-00.82lzpuq.mongodb.net:27017,ac-rdal5xo-shard-00-01.82lzpuq.mongodb.net:27017,ac-rdal5xo-shard-00-02.82lzpuq.mongodb.net:27017/?ssl=true&replicaSet=atlas-dfojfb-shard-0&authSource=admin&retryWrites=true&w=majority
       database : Task
